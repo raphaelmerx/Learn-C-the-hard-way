@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char *agrv[]) {
+int main(int argc, char *argv[]) {
     char list_names[] = {'w', 'a', 'p'};
     // string that's missing the '\0' terminating character 
     int area[] = {3, 93, 62};

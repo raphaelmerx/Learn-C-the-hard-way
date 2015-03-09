@@ -46,4 +46,12 @@ printf("name[1] is: %d\n", name[1]); // still prints 90
 Correction: when trying to put an int where a char was, if integer is > 66, compiler warns about *implicit conversion*, converted to 66.
 Surprising: it's still an int. Not converted to the char representation of an int.
 
+Common cause of errors: strings that don't get terminated by an int. Say you replace the last char with something else than the null byte.
 
+Declare a string with `char *name = 'my name';`.  
+Array of strings with `char *argv[] = ...;`.
+
+Single quotes for char, double quotes for strings.
+
+`*argv[]` is all the arguments given to the executable. `argv[0]` is the name of it, like `./ex10`.
+`argc` is the number of arguments given to the executable.

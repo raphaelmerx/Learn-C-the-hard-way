@@ -4,5 +4,5 @@ CFLAGS=-Wall -g
 # if you just run make, it will run the first command found here
 # make clean all to clean AND run all
 clean:
-	rm -f ex8
-all: ex8
+	rm -f ex10
+all: ex10
