@@ -53,5 +53,8 @@ Array of strings with `char *argv[] = ...;`.
 
 Single quotes for char, double quotes for strings.
 
-`*argv[]` is all the arguments given to the executable. `argv[0]` is the name of it, like `./ex10`.
+`*argv[]` is all the arguments given to the executable. `argv[0]` is its name, like `./ex10`.
 `argc` is the number of arguments given to the executable.
+
+There are no booleans in C, 0 represents False, and any other integer represents True.
+
